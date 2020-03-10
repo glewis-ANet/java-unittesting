@@ -23,3 +23,7 @@ mvn jacoco:report
 
 Runs the code coverage support.  You **must** run `mvn test` first.  To see the report,
 open `target/site/jacoco/index.html`
+
+## Bugs
+
+Lombok generated code is not excluded from the code coverage report
