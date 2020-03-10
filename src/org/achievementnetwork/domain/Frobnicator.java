@@ -1,4 +1,4 @@
-package domain;
+package org.achievementnetwork.domain;
 
 import lombok.Value;
 

@@ -1,4 +1,4 @@
-package storage;
+package org.achievementnetwork.storage;
 
 import javax.lang.model.UnknownEntityException;
 import java.io.IOException;

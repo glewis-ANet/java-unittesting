@@ -1,4 +1,4 @@
-package storage;
+package org.achievementnetwork.storage;
 
 import domain.Frobnicator;
 import org.easymock.*;
