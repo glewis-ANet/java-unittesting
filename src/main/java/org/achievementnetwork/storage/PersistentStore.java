@@ -1,6 +1,6 @@
 package org.achievementnetwork.storage;
 
-import domain.Frobnicator;
+import org.achievementnetwork.domain.Frobnicator;
 
 import javax.lang.model.UnknownEntityException;
 import java.io.IOException;

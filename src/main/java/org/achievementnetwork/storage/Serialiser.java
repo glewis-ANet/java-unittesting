@@ -1,6 +1,6 @@
 package org.achievementnetwork.storage;
 
-import domain.Frobnicator;
+import org.achievementnetwork.domain.Frobnicator;
 
 import java.io.IOException;
 
