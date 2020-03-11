@@ -21,9 +21,8 @@ Runs the unit tests
 mvn jacoco:report
 ```
 
-Runs the code coverage support.  You **must** run `mvn test` first.  To see the report,
-open `target/site/jacoco/index.html`
+Runs the code coverage support.  You **must** run `mvn test` first.  To see the report, open `target/site/jacoco/index.html`
 
-## Bugs
+## Notes
 
-Lombok generated code is not excluded from the code coverage report
+Code coverage shows as less than 100% since JaCoCo will only exclude Lombok generated code where the whole method is generated.  In places where only part of the method is generated (e.g., placing `@NonNull` on a method parameter) JaCoCo still considers that code when calculating code coverage.  Such code is deliberately not targeted in the included unit tests though since it is generated.
